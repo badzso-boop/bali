@@ -28,7 +28,7 @@ import Landing from "views/Landing.js";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
-  <BrowserRouter>
+  <BrowserRouter basename="/bali">
     <Routes>
       <Route path="/" exact element={<Landing />} />
       <Route path="*" element={<Navigate to="/" replace />} />
