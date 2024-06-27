@@ -30,8 +30,8 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <BrowserRouter basename="/bali">
     <Routes>
-      <Route path="/bali" exact element={<Landing />} />
-      <Route path="*" element={<Navigate to="/bali" replace />} />
+      <Route path="/" exact element={<Landing />} />
+      <Route path="*" element={<Navigate to="/" replace />} />
     </Routes>
   </BrowserRouter>
 );
