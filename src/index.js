@@ -31,7 +31,7 @@ root.render(
   <BrowserRouter basename="/bali">
     <Routes>
       <Route path="/bali" exact element={<Landing />} />
-      <Route path="*" element={<Navigate to="/" replace />} />
+      <Route path="*" element={<Navigate to="/bali" replace />} />
     </Routes>
   </BrowserRouter>
 );
