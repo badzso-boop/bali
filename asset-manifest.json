@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.css": "/bali/static/css/main.d379460b.css",
+    "main.css": "/bali/static/css/main.7fdc2b14.css",
     "main.js": "/bali/static/js/main.06a11492.js",
-    "static/media/fontawesome-webfont.svg?v=4.7.0": "/bali/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/bali/static/media/fontawesome-webfont.6878d55e3615ccf40c38.svg",
     "static/media/gyok.png": "/bali/static/media/gyok.dc39f98d72471e16aac4.png",
     "static/media/fontawesome-webfont.eot": "/bali/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
     "static/media/fontawesome-webfont.ttf?v=4.7.0": "/bali/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
-    "static/media/nucleo-icons.svg": "/bali/static/media/nucleo-icons.01ebecaf50461162d4bc.svg",
+    "static/media/nucleo-icons.svg": "/bali/static/media/nucleo-icons.95fa360c1c73431a0f9a.svg",
     "static/media/fontawesome-webfont.woff?v=4.7.0": "/bali/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
     "static/media/stat.jpg": "/bali/static/media/stat.c2e753d856438c91743f.jpg",
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/bali/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
@@ -20,7 +20,7 @@
     "index.html": "/bali/index.html"
   },
   "entrypoints": [
-    "static/css/main.d379460b.css",
+    "static/css/main.7fdc2b14.css",
     "static/js/main.06a11492.js"
   ]
 }
