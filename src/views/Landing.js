@@ -69,9 +69,8 @@ class Landing extends React.Component {
                         <span>"Segítek megérteni és megoldani"</span>
                       </h1>
                       <p className="lead text-white">
-                        Üdvözöllek! Alkalmazott matematikus diplomával és
-                        jelentős magántanári tapasztalattal a hátam mögött
-                        segítek megérteni és megszeretni a matematikát.
+                      Üdvözöllek!
+                      Alkalmazott matematikus diplomámmal és magántanári tapasztalatommal segítek megérteni és megszeretni a matematikát!
                       </p>
                     </Col>
                   </Row>
@@ -106,24 +105,35 @@ class Landing extends React.Component {
                             <i className="ni ni-hat-3" />
                           </div>
                           <h6 className="text-primary text-uppercase">
-                            Tanítási filozófia
+                            Tanítási szolgáltatások
                           </h6>
                           <p className="description mt-3">
-                            Bizalommal fordulj hozzám, ha úgy érzed nem érted a
-                            matekot. Alkalmazott matematikus diplomámmal és
-                            magántanári tapasztalatommal biztos vagyok benne,
-                            hogy segítségedre leszek, jó hangulatú online vagy
-                            személyes órák keretein belül!
-                          </p>
+  <strong>Gimiseknek</strong>
+  <ul>
+    <li>8. - 12. osztály</li>
+  </ul>
+  <strong>Érettségire készülőknek</strong>
+  <ul>
+    <li>Közép / Emelt szint</li>
+  </ul>
+  <strong>Egyetemistáknak</strong>
+  <ul>
+    <li>Analízis</li>
+    <li>Algebra</li>
+    <li>Valszám</li>
+    <li>AnalízisStatisztika</li>
+    <li>végesmatek</li>
+  </ul>
+</p>
                           <div>
                             <Badge color="primary" pill className="mr-1">
-                              innovatív
+                              gimisek
                             </Badge>
                             <Badge color="primary" pill className="mr-1">
-                              érdekes
+                              érettségire készülők
                             </Badge>
                             <Badge color="primary" pill className="mr-1">
-                              diákközpontú
+                              egyetemistáknak
                             </Badge>
                           </div>
                         </CardBody>
@@ -136,24 +146,22 @@ class Landing extends React.Component {
                             <i className="ni ni-books" />
                           </div>
                           <h6 className="text-success text-uppercase">
-                            Tanítási szolgáltatások
+                          Tanítási filozófia
                           </h6>
                           <p className="description mt-3">
-                            Gimiseknek (8.-12.), érettségire készülőknek
-                            (közép/emelt), egyetemistáknak (analízis, algebra,
-                            valszám, statisztika, végesmatek, stb...). Minden
-                            szinten és témakörben szívesen segítek, legyen szó
-                            alapozó ismeretekről vagy haladó anyagokról.
+                          Személyre szabott, jó hangulatú órák keretein belül segítek, hogy elérd a céljaidat, akár átmenni szeretnél a felmérésen, akár a lehető legjobb eredményt elérni!
+Tanításom megértés alapú, mivel így sokkal stabilabb tudásra tehetsz szert, mint magolással a matematika világában.
+Várlak szeretettel akár ONLINE akár személyesen!
                           </p>
                           <div>
                             <Badge color="success" pill className="mr-1">
-                              gimisek
+                              innovatív
                             </Badge>
                             <Badge color="success" pill className="mr-1">
-                              érettségire készülők
+                              érdekes
                             </Badge>
                             <Badge color="success" pill className="mr-1">
-                              egyetemistáknak
+                              diákközpontú
                             </Badge>
                           </div>
                         </CardBody>
@@ -239,27 +247,11 @@ class Landing extends React.Component {
                     <div className="icon icon-lg icon-shape icon-shape-warning shadow rounded-circle mb-5">
                       <i className="ni ni-settings" />
                     </div>
-                    <h3>Kis bemutatkozás rólad</h3>
+                    <h3>Rólam</h3>
                     <p className="lead">
-                      Lorem Ipsum is simply dummy text of the printing and
-                      typesetting industry. Lorem Ipsum has been the industry's
-                      standard dummy text ever since the 1500s, when an unknown
-                      printer took a galley of type and scrambled it to make a
-                      type specimen book.
-                    </p>
-                    <p>
-                      Lorem Ipsum is simply dummy text of the printing and
-                      typesetting industry. Lorem Ipsum has been the industry's
-                      standard dummy text ever since the 1500s, when an unknown
-                      printer took a galley of type and scrambled it to make a
-                      type specimen book.
-                    </p>
-                    <p>
-                      Lorem Ipsum is simply dummy text of the printing and
-                      typesetting industry. Lorem Ipsum has been the industry's
-                      standard dummy text ever since the 1500s, when an unknown
-                      printer took a galley of type and scrambled it to make a
-                      type specimen book.
+                    Szia kedves Érdeklődő! Balázs vagyok, 23 éves mesterszakos hallgató. Általános iskola óta szenvedélyesen szeretem a matematikát, és iskolás éveim alatt rendszeresen részt vettem különböző matekversenyeken. Mindig is érdekesnek találtam a matek fejtörők megoldását és a mögöttük rejlő logika megértését.
+Alkalmazott matematikus diplomám során mély és átfogó matematikai tudásra tettem szert, amit az évek alatt szerzett magántanári tapasztalataimmal ötvözök.
+Elsődleges célom, hogy a Te igényeidet és céljaidat szem előtt tartva, személyre szabott órákat tartsak Neked!
                     </p>
                   </div>
                 </Col>
@@ -344,7 +336,7 @@ class Landing extends React.Component {
               <Row className="justify-content-center text-center mb-lg">
                 <Col lg="8">
                   <h2 className="display-3">A csodás csapat</h2>
-                  <p className="lead text-muted">Kifogytam a szövegekből :(</p>
+                  <p className="lead text-muted"></p>
                 </Col>
               </Row>
               <Row>
@@ -353,21 +345,21 @@ class Landing extends React.Component {
                     <img
                       alt="..."
                       className="rounded-circle img-center img-fluid shadow shadow-lg--hover"
-                      src={require("assets/img/stat.jpg")}
+                      src={require("assets/img/prof_kep_2.jpeg")}
                       style={{ width: "200px" }}
                     />
                     <div className="pt-4 text-center">
                       <h5 className="title">
                         <span className="d-block mb-1">Vajda Balázs</span>
-                        <small className="h6 text-muted">Profi matekos</small>
+                        <small className="h6 text-muted">matematikus</small>
                       </h5>
                       <div className="mt-3">
                         <Button
                           className="btn-icon-only rounded-circle"
                           color="warning"
-                          href="https://www.instagram.com"
+                          href="mailto:megertemmatek@gmail.com"
                         >
-                          <i className="fa fa-instagram" />
+                          <i className="fa fa-envelope" />
                         </Button>
                         <Button
                           className="btn-icon-only rounded-circle ml-1"
@@ -529,6 +521,9 @@ class Landing extends React.Component {
           {/* <Download /> */}
         </main>
         {/* <CardsFooter /> */}
+        <div className="w-100 border text-center bg-gradient-secondary">
+          <a href="http://ujjweb.hu/ujjweb" target="_blank">Készítette: Ujj Norbert</a>
+        </div>
       </>
     );
   }

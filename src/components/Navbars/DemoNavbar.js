@@ -17,6 +17,7 @@
 */
 import React from "react";
 import { Link } from "react-router-dom";
+import "../../index.css"
 // JavaScript plugin that hides or shows a component based on your scroll
 import Headroom from "headroom.js";
 // reactstrap components
@@ -67,7 +68,7 @@ class DemoNavbar extends React.Component {
       <>
         <header className="header-global">
           <Navbar
-            className="navbar-main navbar-transparent navbar-light headroom"
+            className="navbar-main navbar-transparent bg-egyedi navbar-light headroom"
             expand="lg"
             id="navbar-main"
           >
@@ -75,7 +76,7 @@ class DemoNavbar extends React.Component {
               <NavbarBrand className="mr-lg-5" to="/" tag={Link}>
                 <img
                   alt="..."
-                  src={require("assets/img/logo_megertem.png")}
+                  src={require("assets/img/logo_megertem_wht.png")}
                 />
               </NavbarBrand>
               <button className="navbar-toggler" id="navbar_global">
@@ -110,17 +111,17 @@ class DemoNavbar extends React.Component {
                   <NavItem>
                     <NavLink
                       className="nav-link-icon"
-                      href="https://www.facebook.com"
+                      href="mailto:megertemmatek@gmail.com"
                       id="tooltip333589074"
                       target="_blank"
                     >
-                      <i className="fa fa-facebook-square" />
-                      <span className="nav-link-inner--text d-lg-none ml-2">
-                        Facebook
+                      <i class="fa fa-envelope" />
+                      <span className="nav-link-inner--text ml-2">
+                        megertemmatek@gmail.com
                       </span>
                     </NavLink>
                     <UncontrolledTooltip delay={0} target="tooltip333589074">
-                      Like us on Facebook
+                      Írj nekem emailt
                     </UncontrolledTooltip>
                   </NavItem>
                   <NavItem>
