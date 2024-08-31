@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/bali/static/css/main.00401063.css",
-    "main.js": "/bali/static/js/main.08c3eaf6.js",
+    "main.css": "/bali/static/css/main.d379460b.css",
+    "main.js": "/bali/static/js/main.06a11492.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/bali/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/gyok.png": "/bali/static/media/gyok.dc39f98d72471e16aac4.png",
     "static/media/fontawesome-webfont.eot": "/bali/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
@@ -10,7 +10,9 @@
     "static/media/fontawesome-webfont.woff?v=4.7.0": "/bali/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
     "static/media/stat.jpg": "/bali/static/media/stat.c2e753d856438c91743f.jpg",
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/bali/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/prof_kep_2.jpeg": "/bali/static/media/prof_kep_2.37710551bb7a189cdbe0.jpeg",
     "static/media/logo_megertem.png": "/bali/static/media/logo_megertem.24db95b78ef537e9aba8.png",
+    "static/media/logo_megertem_wht.png": "/bali/static/media/logo_megertem_wht.770cd2a2f732155ac41f.png",
     "static/media/nucleo-icons.eot": "/bali/static/media/nucleo-icons.19abb5402a664606b14c.eot",
     "static/media/nucleo-icons.ttf": "/bali/static/media/nucleo-icons.d6a66724e7a7bf1bba65.ttf",
     "static/media/nucleo-icons.woff": "/bali/static/media/nucleo-icons.c82c9b7c40130b7116d3.woff",
@@ -18,7 +20,7 @@
     "index.html": "/bali/index.html"
   },
   "entrypoints": [
-    "static/css/main.00401063.css",
-    "static/js/main.08c3eaf6.js"
+    "static/css/main.d379460b.css",
+    "static/js/main.06a11492.js"
   ]
 }
