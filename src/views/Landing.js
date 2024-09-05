@@ -69,8 +69,9 @@ class Landing extends React.Component {
                         <span>"Segítek megérteni és megoldani"</span>
                       </h1>
                       <p className="lead text-white">
-                      Üdvözöllek!
-                      Alkalmazott matematikus diplomámmal és magántanári tapasztalatommal segítek megérteni és megszeretni a matematikát!
+                        Üdvözöllek! Alkalmazott matematikus diplomámmal és
+                        magántanári tapasztalatommal segítek megérteni és
+                        megszeretni a matematikát!
                       </p>
                     </Col>
                   </Row>
@@ -108,23 +109,24 @@ class Landing extends React.Component {
                             Tanítási szolgáltatások
                           </h6>
                           <p className="description mt-3">
-  <strong>Gimiseknek</strong>
-  <ul>
-    <li>8. - 12. osztály</li>
-  </ul>
-  <strong>Érettségire készülőknek</strong>
-  <ul>
-    <li>Közép / Emelt szint</li>
-  </ul>
-  <strong>Egyetemistáknak</strong>
-  <ul>
-    <li>Analízis</li>
-    <li>Algebra</li>
-    <li>Valszám</li>
-    <li>AnalízisStatisztika</li>
-    <li>végesmatek</li>
-  </ul>
-</p>
+                            <strong>Gimiseknek</strong>
+                            <ul>
+                              <li>8. - 12. osztály</li>
+                            </ul>
+                            <strong>Érettségire készülőknek</strong>
+                            <ul>
+                              <li>Közép / Emelt szint</li>
+                            </ul>
+                            <strong>Egyetemistáknak</strong>
+                            <ul>
+                              <li>Analízis</li>
+                              <li>Algebra</li>
+                              <li>Valszám</li>
+                              <li>Statisztika</li>
+                              <li>Végesmatek</li>
+                              <li>Stb...</li>
+                            </ul>
+                          </p>
                           <div>
                             <Badge color="primary" pill className="mr-1">
                               gimisek
@@ -146,12 +148,16 @@ class Landing extends React.Component {
                             <i className="ni ni-books" />
                           </div>
                           <h6 className="text-success text-uppercase">
-                          Tanítási filozófia
+                            Tanítási filozófia
                           </h6>
                           <p className="description mt-3">
-                          Személyre szabott, jó hangulatú órák keretein belül segítek, hogy elérd a céljaidat, akár átmenni szeretnél a felmérésen, akár a lehető legjobb eredményt elérni!
-Tanításom megértés alapú, mivel így sokkal stabilabb tudásra tehetsz szert, mint magolással a matematika világában.
-Várlak szeretettel akár ONLINE akár személyesen!
+                            Személyre szabott, jó hangulatú órák keretein belül
+                            segítek, hogy elérd a céljaidat, akár átmenni
+                            szeretnél a felmérésen, akár a lehető legjobb
+                            eredményt elérni! Tanításom megértés alapú, mivel
+                            így sokkal stabilabb tudásra tehetsz szert, mint
+                            magolással a matematika világában. Várlak
+                            szeretettel akár ONLINE akár személyesen!
                           </p>
                           <div>
                             <Badge color="success" pill className="mr-1">
@@ -234,24 +240,44 @@ Várlak szeretettel akár ONLINE akár személyesen!
                       </h4>
                       <p className="lead text-italic text-white">
                         A matematika egy izgalmas játék, amely tele van
-                        felfedezési lehetőségekkel és kihívásokkal. Az absztrakt
-                        fogalmak és problémák megoldása során élvezhetjük a
-                        kreatív gondolkodás örömét és az intellektuális
-                        kihívásokat.
+                        felfedezési lehetőségekkel és kihívásokkal.
                       </p>
                     </blockquote>
                   </Card>
                 </Col>
                 <Col md="6">
                   <div className="pl-md-5">
-                    <div className="icon icon-lg icon-shape icon-shape-warning shadow rounded-circle mb-5">
-                      <i className="ni ni-settings" />
+                    <div
+                      className="shadow rounded-circle mb-5 mx-auto"
+                      style={{
+                        width: "150px",
+                        height: "150px",
+                        overflow: "hidden",
+                      }}
+                    >
+                      <CardImg
+                        src={require("assets/img/prof_kep_2.jpeg")}
+                        className="img-fluid"
+                      />
+                    </div>
+                    <div className="pt-4 text-center">
+                      <h5 className="title">
+                        <span className="d-block mb-1">Vajda Balázs</span>
+                        <small className="h6 text-muted">matematikus</small>
+                      </h5>
                     </div>
                     <h3>Rólam</h3>
                     <p className="lead">
-                    Szia kedves Érdeklődő! Balázs vagyok, 23 éves mesterszakos hallgató. Általános iskola óta szenvedélyesen szeretem a matematikát, és iskolás éveim alatt rendszeresen részt vettem különböző matekversenyeken. Mindig is érdekesnek találtam a matek fejtörők megoldását és a mögöttük rejlő logika megértését.
-Alkalmazott matematikus diplomám során mély és átfogó matematikai tudásra tettem szert, amit az évek alatt szerzett magántanári tapasztalataimmal ötvözök.
-Elsődleges célom, hogy a Te igényeidet és céljaidat szem előtt tartva, személyre szabott órákat tartsak Neked!
+                      Szia kedves Érdeklődő! Balázs vagyok, 24 éves mesterszakos
+                      hallgató. Általános iskola óta szenvedélyesen szeretem a
+                      matematikát, és iskolás éveim alatt rendszeresen részt
+                      vettem különböző matekversenyeken. Mindig is érdekesnek
+                      találtam a matek fejtörők megoldását és a mögöttük rejlő
+                      logika megértését. Alkalmazott matematikus diplomám során
+                      mély és átfogó matematikai tudásra tettem szert, amit az
+                      évek alatt szerzett magántanári tapasztalataimmal ötvözök.
+                      Elsődleges célom, hogy a Te igényeidet és céljaidat szem
+                      előtt tartva, személyre szabott órákat tartsak Neked!
                     </p>
                   </div>
                 </Col>
@@ -276,36 +302,43 @@ Elsődleges célom, hogy a Te igényeidet és céljaidat szem előtt tartva, sze
                       <div className="d-flex px-3">
                         <div>
                           <div className="icon icon-shape bg-gradient-success rounded-circle text-white">
-                            <i className="ni ni-satisfied" />
+                            <i className="ni ni-money-coins" />
                           </div>
                         </div>
                         <div className="pl-4">
-                          <h5 className="title text-success">
-                            Hatékony Támogatás
-                          </h5>
+                          <h5 className="title text-success">Óradíj</h5>
                           <p>
-                            Személyre szabott matematika különórák, hogy
-                            sikerüljön az egyetem, középiskola, érettségi.
+                            Az órák ára 6000 Ft / óra, amely tartalmazza a
+                            személyre szabott tananyagot, a rugalmas
+                            időbeosztást és az egyéni figyelmet, hogy a
+                            matematika tanulás valóban hatékony és élvezetes
+                            legyen számodra.
                           </p>
                         </div>
                       </div>
                     </CardBody>
+                    <Row className="justify-content-center align-items-center mt-4">
+                      <i className="ni ni-money-coins text-success mr-2" />
+                      <span className="h5 font-weight-bold">6000 Ft / óra</span>
+                    </Row>
                   </Card>
                   <Card className="shadow shadow-lg--hover mt-5">
                     <CardBody>
                       <div className="d-flex px-3">
                         <div>
                           <div className="icon icon-shape bg-gradient-warning rounded-circle text-white">
-                            <i className="ni ni-active-40" />
+                            <i className="ni ni-archive-2" />
                           </div>
                         </div>
                         <div className="pl-4">
                           <h5 className="title text-warning">
-                            Moduláris Oktatási Forma
+                            Rugalmasság és Megértés
                           </h5>
                           <p>
-                            Rugalmas időbeosztású matematika órák, hogy az
-                            egyetem mellett is haladj a tanulással.
+                            Az oktatási módszerem rugalmas, alkalmazkodik a te
+                            időbeosztásodhoz és tanulási igényeidhez. A célom,
+                            hogy támogassalak a matematika kihívásaiban és
+                            segítséget nyújtsak a céljaid elérésében.
                           </p>
                         </div>
                       </div>
@@ -314,7 +347,6 @@ Elsődleges célom, hogy a Te igényeidet és céljaidat szem előtt tartva, sze
                 </Col>
               </Row>
             </Container>
-            {/* SVG separator */}
             <div className="separator separator-bottom separator-skew zindex-100">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -331,6 +363,7 @@ Elsődleges célom, hogy a Te igényeidet és céljaidat szem előtt tartva, sze
               </svg>
             </div>
           </section>
+
           <section className="section section-lg">
             <Container>
               <Row className="justify-content-center text-center mb-lg">
@@ -413,7 +446,7 @@ Elsődleges célom, hogy a Te igényeidet és céljaidat szem előtt tartva, sze
               </Card>
             </Container>
           </section> */}
-          <section className="section section-lg bg-gradient-default">
+          {/* <section className="section section-lg bg-gradient-default">
             <Container className="pt-lg pb-300">
               <Row className="text-center justify-content-center">
                 <Col lg="10">
@@ -463,7 +496,7 @@ Elsődleges célom, hogy a Te igényeidet és céljaidat szem előtt tartva, sze
                 </Col>
               </Row>
             </Container>
-            {/* SVG separator */}
+            
             <div className="separator separator-bottom separator-skew zindex-100">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -517,12 +550,14 @@ Elsődleges célom, hogy a Te igényeidet és céljaidat szem előtt tartva, sze
                 </Col>
               </Row>
             </Container>
-          </section>
+          </section> */}
           {/* <Download /> */}
         </main>
         {/* <CardsFooter /> */}
         <div className="w-100 border text-center bg-gradient-secondary">
-          <a href="http://ujjweb.hu/ujjweb" target="_blank">Készítette: Ujj Norbert</a>
+          <a href="http://ujjweb.hu/ujjweb" target="_blank">
+            Készítette: Ujj Norbert
+          </a>
         </div>
       </>
     );

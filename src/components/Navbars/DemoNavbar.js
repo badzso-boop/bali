@@ -124,7 +124,7 @@ class DemoNavbar extends React.Component {
                       Írj nekem emailt
                     </UncontrolledTooltip>
                   </NavItem>
-                  <NavItem>
+                  {/* <NavItem>
                     <NavLink
                       className="nav-link-icon"
                       href="https://www.instagram.com"
@@ -139,8 +139,8 @@ class DemoNavbar extends React.Component {
                     <UncontrolledTooltip delay={0} target="tooltip356693867">
                       Follow me on Instagram
                     </UncontrolledTooltip>
-                  </NavItem>
-                  <NavItem>
+                  </NavItem> */}
+                  {/* <NavItem>
                     <NavLink
                       className="nav-link-icon"
                       href="https://www.linkedin.com/"
@@ -155,12 +155,12 @@ class DemoNavbar extends React.Component {
                     <UncontrolledTooltip delay={0} target="tooltip184698705">
                       Follow us on LinkedIn
                     </UncontrolledTooltip>
-                  </NavItem>
+                  </NavItem> */}
                   <NavItem className="d-none d-lg-block ml-lg-4">
                     <Button
                       className="btn-neutral btn-icon"
                       color="default"
-                      href="https://www.super-prof.hu/"
+                      href="https://www.super-prof.hu/bizalommal-fordulj-hozzam-ugy-erzed-nem-erted-matekot-matematikus-diplomammal-magantanari-tapasztalatommal-biztos.html"
                       target="_blank"
                     >
                       <span className="btn-inner--icon">
