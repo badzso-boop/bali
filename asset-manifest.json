@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/bali/static/css/main.7fdc2b14.css",
-    "main.js": "/bali/static/js/main.06a11492.js",
+    "main.js": "/bali/static/js/main.5a0da106.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/bali/static/media/fontawesome-webfont.6878d55e3615ccf40c38.svg",
     "static/media/gyok.png": "/bali/static/media/gyok.dc39f98d72471e16aac4.png",
     "static/media/fontawesome-webfont.eot": "/bali/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
@@ -21,6 +21,6 @@
   },
   "entrypoints": [
     "static/css/main.7fdc2b14.css",
-    "static/js/main.06a11492.js"
+    "static/js/main.5a0da106.js"
   ]
 }
