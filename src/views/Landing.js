@@ -394,7 +394,7 @@ class Landing extends React.Component {
                         >
                           <i className="fa fa-envelope" />
                         </Button>
-                        <Button
+                        {/* <Button
                           className="btn-icon-only rounded-circle ml-1"
                           color="warning"
                           href="https://www.linkedin.com/"
@@ -407,7 +407,7 @@ class Landing extends React.Component {
                           href="https://www.facebook.com"
                         >
                           <i className="fa fa-facebook-square" />
-                        </Button>
+                        </Button> */}
                       </div>
                     </div>
                   </div>
