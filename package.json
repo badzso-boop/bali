@@ -3,7 +3,6 @@
   "version": "1.1.2",
   "description": "Vajda Balázs Megértem",
   "main": "index.js",
-  "homepage": "https://badzso-boop.github.io/bali",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
