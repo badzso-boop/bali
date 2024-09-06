@@ -124,22 +124,22 @@ class DemoNavbar extends React.Component {
                       Írj nekem emailt
                     </UncontrolledTooltip>
                   </NavItem>
-                  {/* <NavItem>
+                  <NavItem>
                     <NavLink
                       className="nav-link-icon"
-                      href="https://www.instagram.com"
+                      href="tel:+36305666325"
                       id="tooltip356693867"
                       target="_blank"
                     >
-                      <i className="fa fa-instagram" />
+                      <i className="fa fa-phone" />
                       <span className="nav-link-inner--text d-lg-none ml-2">
-                        Instagram
+                        +36305666325
                       </span>
                     </NavLink>
                     <UncontrolledTooltip delay={0} target="tooltip356693867">
-                      Follow me on Instagram
+                      Hívj fel bátran
                     </UncontrolledTooltip>
-                  </NavItem> */}
+                  </NavItem>
                   {/* <NavItem>
                     <NavLink
                       className="nav-link-icon"

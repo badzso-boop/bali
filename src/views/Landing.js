@@ -364,7 +364,7 @@ class Landing extends React.Component {
             </div>
           </section>
 
-          <section className="section section-lg">
+          {/* <section className="section section-lg">
             <Container>
               <Row className="justify-content-center text-center mb-lg">
                 <Col lg="8">
@@ -394,7 +394,7 @@ class Landing extends React.Component {
                         >
                           <i className="fa fa-envelope" />
                         </Button>
-                        {/* <Button
+                        <Button
                           className="btn-icon-only rounded-circle ml-1"
                           color="warning"
                           href="https://www.linkedin.com/"
@@ -407,14 +407,14 @@ class Landing extends React.Component {
                           href="https://www.facebook.com"
                         >
                           <i className="fa fa-facebook-square" />
-                        </Button> */}
+                        </Button>
                       </div>
                     </div>
                   </div>
                 </Col>
               </Row>
             </Container>
-          </section>
+          </section> */}
           {/* <section className="section section-lg pt-0">
             <Container>
               <Card className="bg-gradient-warning shadow-lg border-0">
@@ -554,7 +554,7 @@ class Landing extends React.Component {
           {/* <Download /> */}
         </main>
         {/* <CardsFooter /> */}
-        <div className="w-100 border text-center bg-gradient-secondary">
+        <div className="w-100 text-center mt-4">
           <a href="http://ujjweb.hu/ujjweb" target="_blank">
             Készítette: Ujj Norbert
           </a>
